@@ -1,0 +1,88 @@
+* {
+  color: brown;
+  box-sizing: border-box 10px yellow; 
+}
+
+/* all the body */
+body {
+  margin: 10;
+  padding: 10;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+/* header*/
+header{
+background-color: antiquewhite; 
+border: 3px solid salmon; 
+}
+#my-name {
+  color: black;
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  background-color: cornflowerblue ;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 50px;
+}
+li{
+  display: inline;
+  float: right;
+}
+a{
+  display:block;
+  padding: 7px;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+
+h1 {
+  colour: green;
+  box-sizing: border-box; width: 10px;
+
+}
+h2 {
+
+}
+.strap {
+  color:cornflowerblue;
+}  
+.page-section {
+  display: flex;
+  flex-direction: row;
+  background-color: slateblue
+  margin: 10px;
+  padding: 20px;
+}
+  /* Resposive layout makes one column for small divice*/
+  @media (max-width: 800px) {
+    .page-section {
+    flex-direction: column;
+    }
+
+  
+
+
+}
+}
+
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
